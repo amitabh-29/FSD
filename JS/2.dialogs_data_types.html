@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examples: Dialogs, Data Types, and Operators</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            color: #555;
+        }
+
+        .example {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            background: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        pre {
+            background: #f4f4f4;
+            padding: 10px;
+            border-left: 3px solid #ccc;
+            overflow-x: auto;
+        }
+
+        .output {
+            margin-top: 10px;
+            padding: 10px;
+            background: #e8f7e9;
+            border: 1px solid #d4e8d5;
+        }
+
+        button {
+            padding: 5px 10px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Examples: Dialogs, Data Types, and Operators</h1>
+
+    <div class="example">
+        <h2>Example 1: Using Alerts</h2>
+        <pre>// Displaying an alert message\nalert(\"Hello, this is an alert dialog!\");</pre>
+        <button onclick="example1()">Run Example</button>
+    </div>
+
+    <div class="example">
+        <h2>Example 2: Using Prompt</h2>
+        <pre>// Getting user input using prompt\nlet name = prompt(\"What is your name?\");\nalert(\"Hello, \" + name + \"!\");</pre>
+        <button onclick="example2()">Run Example</button>
+    </div>
+
+    <div class="example">
+        <h2>Example 3: Confirm Dialog</h2>
+        <pre>// Using confirm dialog\nlet isConfirmed = confirm(\"Do you want to continue?\");\nalert(\"Your choice: \" + (isConfirmed ? \"Yes\" : \"No\"));</pre>
+        <button onclick="example3()">Run Example</button>
+    </div>
+
+    <div class="example">
+        <h2>Example 4: Data Types</h2>
+        <pre>// Checking data types\nlet number = 42;\nlet text = \"Hello\";\nlet isTrue = true;\nconsole.log(typeof number, typeof text, typeof isTrue);</pre>
+        <button onclick="example4()">Run Example</button>
+        <div class="output" id="output4"></div>
+    </div>
+
+    <div class="example">
+        <h2>Example 5: Operators</h2>
+        <pre>// Arithmetic and comparison operators\nlet a = 10;\nlet b = 20;\nlet sum = a + b;\nlet isEqual = a === b;\nconsole.log(\"Sum:\", sum, \"Are they equal?\", isEqual);</pre>
+        <button onclick="example5()">Run Example</button>
+        <div class="output" id="output5"></div>
+    </div>
+    <script src="2example.js"></scri>
+</body>
+</html>

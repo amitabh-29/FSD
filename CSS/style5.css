@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --color:rgb(130, 129, 245);
+    --seccolor:grey;
+    --thcolor:rgb(246, 177, 177);
+    --forcolor:blue;
+    --backgroundcolor:rgb(190, 190, 245);
+}
+body{
+    background-color: var(--backgroundcolor);
+}
+.nav{
+    background-color: var(--color);
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+a{
+    color: var(--thcolor);
+    text-decoration: none;
+}
+ul li{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    color: var(--thcolor);
+
+}
+.container{
+    margin: 20px;
+    background-color: var(--thcolor);
+    padding: 10px;
+}

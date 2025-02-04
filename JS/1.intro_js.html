@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to JavaScript Examples</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            color: #555;
+        }
+
+        .example {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            background: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        pre {
+            background: #f4f4f4;
+            padding: 10px;
+            border-left: 3px solid #ccc;
+            overflow-x: auto;
+        }
+
+        .output {
+            margin-top: 10px;
+            padding: 10px;
+            background: #e8f7e9;
+            border: 1px solid #d4e8d5;
+        }
+
+        button {
+            padding: 5px 10px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Introduction to JavaScript Examples</h1>
+
+    <div class="example">
+        <h2>Example 1: Displaying a Message</h2>
+        <pre>// JavaScript code to display a message\nalert(\"Welcome to JavaScript!\");</pre>
+        <button onclick="example1()">Run Example</button>
+    </div>
+
+    <div class="example">
+        <h2>Example 2: Variables and Data Types</h2>
+        <pre>// Declaring variables\nlet name = \"John\";\nlet age = 25;\nlet isStudent = true;\nconsole.log(name, age, isStudent);</pre>
+        <button onclick="example2()">Run Example</button>
+        <div class="output" id="output2"></div>
+    </div>
+
+    <div class="example">
+        <h2>Example 3: Simple Arithmetic</h2>
+        <pre>// Performing arithmetic\nlet a = 5;\nlet b = 10;\nlet sum = a + b;\nconsole.log(\"Sum is:\", sum);</pre>
+        <button onclick="example3()">Run Example</button>
+        <div class="output" id="output3"></div>
+    </div>
+
+    <div class="example">
+        <h2>Example 4: String Manipulation</h2>
+        <pre>// Concatenating strings\nlet greeting = \"Hello\";\nlet subject = \"World\";\nlet message = greeting + \", \" + subject + \"!\";\nconsole.log(message);</pre>
+        <button onclick="example4()">Run Example</button>
+        <div class="output" id="output4"></div>
+    </div>
+
+    <div class="example">
+        <h2>Example 5: Conditional Statements</h2>
+        <pre>// Using if-else\nlet score = 85;\nif (score >= 50) {\n    console.log(\"Pass\");\n} else {\n    console.log(\"Fail\");\n}</pre>
+        <button onclick="example5()">Run Example</button>
+        <div class="output" id="output5"></div>
+    </div>
+    <script src="1examples.js"></script>
+</body>
+</html>

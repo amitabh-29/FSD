@@ -1,0 +1,326 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo">Click The button to create a variable, and display the result.</p>
+    <button onclick="myFunction()">Click Me</button>
+    <script src="script.js"></script>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="alert('Welcome')">
+    <p>Click the button to add numbers and strings:</p>
+    <button onclick="myfunction()">Try It</button>
+
+    <p id="demo"></p>
+    <script src="script.js"></script>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type = "text/javascript">
+        function sayHello(){
+            alert("Hello");
+        }
+    </script>
+</head>
+<body>
+    <p>Click the following button and see result</p>
+    <form>
+        <input type="button" onclick="sayHello()" value = "Say Hello"/>
+    </form>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function over(){
+            document.getElementById('mytext').style.color = "#000";
+        }
+        function mout(){
+            document.getElementById('mytext').style.color = "magenta";
+        }
+    </script>
+</head>
+<body>
+    <h2 id="mytext" onmouseover="over()" onmouseout="mout()">Hello World</h2>
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type = "text/javascript">
+        var retVal = confirm("Do you want to continue?"); 
+        if(retVal == true)
+    {
+        alert("User wants to continue");
+    }   
+        else
+        {
+            alert("User does not want to continue");
+        }
+    </script>
+</head>
+<body> -->
+    
+<!-- </body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+        var retVal = prompt("Enter Your Name:","your name here");
+        alert("You have entered:" + retVal);
+    </script>
+</head>
+<body>
+    
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script Language = "javascript">
+        var name = prompt("Enter Your Name:","Name");
+        document.write("<h2>Hello"+name+"</h2>");
+    </script>
+</head>
+<body>
+    
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    var question = "What is 10 + 10?";
+    var answer = 20;
+    var correct = '<img src="data:image/png;base64,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" alt="Correct" height="150" width="250">';
+    var incorrect = '<img src="2.jpg" alt="Incorrect" height="150" width="250">';
+    var response = prompt(question, "0");
+    var feedbackShown = false;
+
+    for (var count = 0; count < 3; count++) {
+      if (response != answer) {
+        confirm("Incorrect! Try again");
+        response = prompt(question, "0");
+        if (count == 1 && !feedbackShown) {
+          alert("Better luck next time");
+          feedbackShown = true;
+        }
+      } else {
+        alert("Correct! Well done");
+        break;
+      }
+    }
+
+    var output = (response == answer) ? correct : incorrect;
+    document.write(output);
+  </script>
+</body>
+</html>
+\ -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+  <script type="text/javascript">
+    function myFunction() {
+      window.print();
+    }
+</script>
+</head>
+<body>
+<form>
+  <input type="button" value="Click me" onclick="window.print()">
+</form>
+
+</body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html> -->
+<!-- ---------------------------------------------------------------- -->
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Full height of the viewport */
+        margin: 0; /* Remove default margin */
+    }
+    #contactForm {
+        border: 2px solid #000; /* Black border */
+        padding: 20px; /* Padding inside the form */
+        border-radius: 5px; /* Rounded corners */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    }
+  </style>
+  <script>
+    function validateForm() {
+        var x = document.forms["myForm"]["fname"].value;
+        if(x == "") {
+            alert("Name must be filled out");
+            return false;
+        }
+    }
+  </script>
+</head>
+<body>
+  <h1>Contact Form</h1>
+  <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vintage Survey Form</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0e4d7; /* Light vintage background */
+            font-family: 'Georgia', serif; /* Vintage font */
+        }
+        #surveyForm {
+            background-color: #fff; /* White background for the form */
+            border: 2px solid #8b5a2b; /* Brown border */
+            border-radius: 10px; /* Rounded corners */
+            padding: 35px; /* Adjusted padding */
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+            width: 300px; /* Fixed width */
+            text-align: center; /* Center text */
+            animation: fadeIn 1s; /* Fade-in animation */
+        }
+        h1 {
+            color: #8b5a2b; /* Brown color for the title */
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            color: #5b3a29; /* Darker brown for labels */
+        }
+        input[type="text"], input[type="email"], input[type="tel"], textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            transition: border-color 0.3s; /* Transition for border color */
+        }
+        input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, textarea:focus {
+            border-color: #8b5a2b; /* Change border color on focus */
+        }
+        button {
+            background-color: #8b5a2b; /* Button color */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 15px;
+            cursor: pointer;
+            transition: background-color 0.3s; /* Transition for button */
+        }
+        button:hover {
+            background-color: #6f4c3e; /* Darker shade on hover */
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <form id="surveyForm">
+        <h1>Survey Form</h1>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="feedback">Feedback:</label>
+        <textarea id="feedback" name="feedback" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

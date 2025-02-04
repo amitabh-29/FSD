@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <h1 align="center">Creating and Using Tables</h1>
+    <table align="center" border="1">
+        <caption><b>First</b></caption>
+        <tr>
+            <th><b>Car</b></th>
+            <th><b>Bike</b></th>
+        </tr>
+        <tr>
+            <td>$1,20,000</td>
+            <td>$1,00,000</td>
+        </tr>
+        <tr>
+            <td>$2,00,000</td>
+            <TD>$2,50,000</TD>
+        </tr> </table>
+        <br> 
+        <table border="1" cellpadding = "2" align="center">
+            <tr>
+                <th>Column 1 Header</th>
+                <th>Column 2 Header</th>
+            </tr>
+            <tr>
+                <td colspan="2">
+                Row 1 Col 1
+                </td>
+            </tr>
+            <tr>
+                <td rowspan ="2"> Row 2 col 1 </td>
+                <td>row 2 col 2</td>
+            </tr>
+            <tr>
+                <td>Row 3 column 1</td>
+            </tr>
+        </table> 
+        <br><br>
+        <table border = "2" style="border-color: aqua; border-radius: 5%;" width = "750" align="center">
+            <tr>
+                <td colspan="4" align="center"> Page Banner</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2" width = "25%">Nav Links</td>
+                <td colspan="2">Feature Article</td>
+                <td rowspan="2" width="25%">Linked Ads</td>
+            </tr>
+
+            <tr>
+                <td width = "25%">News Column 1</td>
+                <td width = "25%">News Column 2</td>
+            </tr>
+        </table>
+</body>
+</html>
